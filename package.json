@@ -1,0 +1,23 @@
+{
+  "name": "grpc_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavin1657919948/grpc_server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gavin1657919948/grpc_server/issues"
+  },
+  "homepage": "https://github.com/gavin1657919948/grpc_server#readme",
+  "dependencies": {
+    "grpc": "^1.8.0",
+    "mongoose": "^5.0.0"
+  }
+}
