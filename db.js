@@ -1,5 +1,7 @@
-var mongoose = require("mongoose"),
-  DB_URL = "mongodb://wushuu:woyoadmin@118.190.73.233:27017/colmena";
+const mongoose = require("mongoose");
+const config = require("./config.json");
+
+DB_URL = config.mongodbURL;
 mongoose.connect(DB_URL);
 /**
  * 连接成功
