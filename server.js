@@ -12,8 +12,8 @@ server.addService(proto.Greeter.service, {
     for (let i in dataArr) {
       let sensorLog = new SensorLog({
         reportTime: dataArr[i].reportTime,
-        createTime: new Date().toLocaleString(),
-        updateTime: new Date().toLocaleString(),
+        createTime: new Date( new Date().getTime()+28800000).toLocaleString(),
+        updateTime: new Date( new Date().getTime()+28800000).toLocaleString(),
         message: dataArr[i].message,
         error: dataArr[i].error,
         alert: dataArr[i].alert,
@@ -29,7 +29,7 @@ server.addService(proto.Greeter.service, {
     }
 
     const res = {
-      message: "data received:" + new Date().toLocaleString()
+      message: "data received:" + new Date(new Date().getTime()+28800000).toLocaleString()
     };
     cb(null, res);
   }

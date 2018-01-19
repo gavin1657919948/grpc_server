@@ -1,5 +1,5 @@
 {
   "mongodbURL": "mongodb://wushuu:woyoadmin@118.190.73.233:27017/colmena",
-  "host": "localhost",
-  "port": 50051
+  "host": "172.17.0.3",
+  "port": 8001
 }
