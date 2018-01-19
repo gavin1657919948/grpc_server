@@ -4,7 +4,7 @@ let sensorLogSchema = new Schema({
   reportTime: { type: Date },
   createTime: { type: Date },
   updateTime: { type: Date },
-  message: { type: Object },
+  channels: { type: Object },
   error: { type: Object },
   alert: { type: Object },
   arcFault: { type: String }

@@ -14,7 +14,7 @@ server.addService(proto.Greeter.service, {
         reportTime: dataArr[i].reportTime,
         createTime: new Date( new Date().getTime()+28800000).toLocaleString(),
         updateTime: new Date( new Date().getTime()+28800000).toLocaleString(),
-        message: dataArr[i].message,
+        channels: dataArr[i].channels,
         error: dataArr[i].error,
         alert: dataArr[i].alert,
         arcFault: dataArr[i].arcFault
